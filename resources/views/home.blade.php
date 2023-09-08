@@ -10,8 +10,8 @@
 <div class="row">
     @foreach ($comics as $comic)
         <div class="col-3 mb-3">
-            <div class="card" style="width: 18rem;">
-                <img src="{{ $comic['thumb'] }}" class="card-img-top" alt="...">
+            <div class="card height" style="width: 18rem;">
+                <img src="{{ $comic['thumb'] }}" class="card-img-top img-h" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">{{ $comic['title'] }}</h5>
                   <p class="card-text text-warning fw-bold">{{ $comic['price'] }}</p>
